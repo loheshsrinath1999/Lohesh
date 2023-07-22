@@ -1,0 +1,53 @@
+.sidenav {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  align-items: center;
+  justify-content: center;
+  background:#fff;
+}
+.sidenav > * {
+  padding: 30px 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbarIcon {
+  width: 70%;
+  height: 70%;
+  display: block;
+  color: grey;
+}
+.active{
+  color: orangered !important;
+}
+@media only screen and (max-width: 768px) {
+  .sidenav {
+    padding: 7px 10px;
+  }
+  .sidenav > * {
+    padding:0 ;
+  }  
+  .navbar-container{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+
+  .sidenav {
+    flex-direction: row;
+    border-radius: 0;
+  }
+  .sidenav > * {
+   flex-basis: 100%;
+  }
+  .navbarIcon {
+    height: 30px;
+    width: 30px;
+  }
+}
