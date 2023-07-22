@@ -95,22 +95,6 @@
   border-radius: 5px;
   position: relative;
 }
-
-#parent {
-  width: 100%;
-  height: 100%;
-  padding-bottom: 10px;
-  overflow: hidden;
-}
-
-#child {
-  width: 100%;
-  height: 100%;
-  overflow-y: scroll;
-  padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
-  box-sizing: content-box; /* So the width will be 100% + 17px */
-}
-
 .cards-dropdown-container select {
   all: unset;
   padding: 5px;
